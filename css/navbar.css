@@ -1,0 +1,17 @@
+.nav-enlace{
+    display: inline-block;
+    font-size: 20px;
+    background: #428bca;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: #6fb3e0;
+}
+
+nav{
+    background: #e4e4e4;
+    padding: 20px;
+}
