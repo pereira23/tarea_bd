@@ -1,0 +1,32 @@
+git status
+	muestra el estado del git y en que branch estás trabajando
+
+git branch <nombre branch>
+	crear un branch local
+
+git branch -d <nombre branch>
+	borrar un branch local
+
+git checkout <nombre branch>
+	usar un branch
+
+git pull
+	bajar los cambios del mismo branch que estás usando al computador desde el servidor de git
+
+git add <ruta archivo o carpeta>
+	agregar un archivo modificado al lista de archivo que son lista para subir
+
+git commit -m "<mensaje>"
+	cometer el listo de archivos modificados con un mensaje relacionado a los cambios(eso no sube los cambios, solo guarda tus cambios de forma permenente ya que son listo para subir)
+
+git push -u origin <nombre branch>
+	crear el branch en el servidor remoto y luego subir los "commits" al servidor (solo hay que correr eso una vez para crear el branch en el servidor)
+
+git push
+	subir todos los "commits" que has hecho al servidor al mismo branch que estas usando
+
+git rm miarchivo.php
+	elimina un archivo
+
+git rm -r micarpeta
+	elimina carpeta
